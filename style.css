@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #505f85;
+  padding: 10px;
+}
+
+.password {
+  background-color: #1c2136;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 400px;
+  width: 100%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+  transition: 0.4s all linear;
+}
+
+.password .heading {
+  border-left: 4px solid #5d44f8;
+  padding-left: 10px;
+  margin: 10px 0 30px 0;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #5d44f8;
+  height: 50px;
+  padding: 0 15px;
+  border-radius: 10px;
+  transition: 0.4s all ease-in-out;
+}
+
+.box .result-input {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+  color: #fff;
+  outline: none;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: 0.4s all ease-in-out;
+}
+
+.box:hover {
+  opacity: 0.8;
+}
+
+.box .btn-copy {
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  color: #fff;
+  font-size: 18px;
+  transition: 0.4s all ease-in-out;
+}
+
+.box .btn-copy:hover {
+  opacity: 0.8;
+}
+
+.password .title-pass {
+  margin: 20px 0 10px 0;
+}
+
+.password .range {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0 20px 0;
+}
+
+.password .range .btn-range {
+  width: 100%;
+  height: 2px;
+  cursor: pointer;
+  transition: 0.5s all linear;
+}
+
+.password .range .range-numbers {
+  margin-left: 20px;
+}
+
+.password .include-value {
+  display: flex;
+  align-items: center;
+}
+
+.password .include-value .check-value {
+  width: 15px;
+  height: 15px;
+  margin: 10px 10px 10px 0;
+  cursor: pointer;
+}
+
+.password .generator {
+  border: none;
+  outline: none;
+  background-color: #5d44f8;
+  color: #fff;
+  cursor: pointer;
+  width: 100%;
+  height: 40px;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.25px;
+  margin-top: 20px;
+  transition: 0.4s all linear;
+}
+
+.password .generator:hover {
+  opacity: 0.8;
+}
